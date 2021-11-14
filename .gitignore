@@ -1,0 +1,6 @@
+# Recommended for ignore by godot docs:
+# https://docs.godotengine.org/en/stable/getting_started/workflow/project_setup/version_control_systems.html
+.import/
+*.translation
+export_presets.cfg
+.mono/
