@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://little_dude/stand_right.png" type="Texture" id=1]
 [ext_resource path="res://little_dude/rightwalk3.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://little_dude/leftwalk3.png" type="Texture" id=4]
 [ext_resource path="res://little_dude/leftwalk2.png" type="Texture" id=5]
 [ext_resource path="res://little_dude/leftwalk1.png" type="Texture" id=6]
+[ext_resource path="res://Little Dude.gd" type="Script" id=7]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -21,11 +22,12 @@ animations = [ {
 } ]
 
 [node name="Little Dude" type="Node2D"]
+script = ExtResource( 7 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 171.392, 222.035 )
 scale = Vector2( 0.3, 0.3 )
 frames = SubResource( 1 )
 animation = "rightwalk"
-frame = 1
+frame = 3
 playing = true
