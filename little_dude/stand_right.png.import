@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rightwalk2.png-771b59802ae904fd3cdfa5111a03b471.stex"
+path="res://.import/stand_right.png-9b19e379dfd1c9f4d1a79a9a5233cc6c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://little_dude/rightwalk2.png"
-dest_files=[ "res://.import/rightwalk2.png-771b59802ae904fd3cdfa5111a03b471.stex" ]
+source_file="res://little_dude/stand_right.png"
+dest_files=[ "res://.import/stand_right.png-9b19e379dfd1c9f4d1a79a9a5233cc6c.stex" ]
 
 [params]
 
